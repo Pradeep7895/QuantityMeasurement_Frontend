@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // ── Axios instance pointing at your ASP.NET backend 
 const api = axios.create({
-  baseURL: 'http://localhost:8080/api',
+  baseURL: 'https://quantitymeasurementbackend-production.up.railway.app',
   headers: { 'Content-Type': 'application/json' },
 })
 
