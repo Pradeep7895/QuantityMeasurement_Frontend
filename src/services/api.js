@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // ── Axios instance pointing at your ASP.NET backend 
 const api = axios.create({
-  baseURL: 'https://quantitymeasurementbackend-production.up.railway.app',
+  baseURL: 'https://quantitymeasurementbackend-production.up.railway.app/api',
   headers: { 'Content-Type': 'application/json' },
 })
 
